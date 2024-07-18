@@ -172,7 +172,7 @@ Análise do total de casos por cidade. Fonte: Autor
 
 **A cidade com maior ocorrência foi a do Rio de Janeiro, com um total de 1.020.174 ocorrências, 15,15% dos casos da região Sudeste, 7.84% dos casos totais, seguida de Belo Horizonte, Goiânia, Fortaleza e Campinas.** 
 
-Se comparada com o número de casos do estado do RJ, a capital do Rio representa 72.03% do número das ocorrências (1.020.174 ocorrências). Se comparada com o número de casos do estado de SP, a capital São Paulo representa apenas 7.36% das ocorrências (187.659 ocorrências). As queries destas duas consultas foram omitidas por não serem um objetivo direto da análise, porém, as consultas estão disponíveis no meu GitHub.
+Se comparada com o número de casos do estado do RJ, a capital do Rio representa 72.03% do número das ocorrências (1.020.174 ocorrências). Se comparada com o número de casos do estado de SP, a capital São Paulo representa apenas 7.36% das ocorrências (187.659 ocorrências). As queries destas duas consultas foram omitidas por não serem um objetivo direto da análise, porém, as consultas estão disponíveis no meu [GitHub](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/An%C3%A1lises/An%C3%A1lises.sql).
 
 ---
 
