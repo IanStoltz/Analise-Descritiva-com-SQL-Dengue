@@ -112,7 +112,7 @@ Os possíveis outliers presentes nos dados não foram tratados, pois esses valor
 
 Primeiramente, foi calculado o total de casos registrados durante o período do dataset, 2000 a 2019. Foi utilizada a coluna dengue_cases. Totalizando 13.014.346 ocorrências de dengue. 
 
-![Cálculo do total de casos registrados no período de 2000 a 2019. Fonte: Autor.](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/29e15ba1-0eee-4593-820c-e7e4a76f5c38/Untitled.png)
+![Cálculo do total de casos registrados no período de 2000 a 2019. Fonte: Autor.](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/1%20-%20Total%20de%20casos.png)
 
 Cálculo do total de casos registrados no período de 2000 a 2019. Fonte: Autor.
 
@@ -124,7 +124,7 @@ Cálculo do total de casos registrados no período de 2000 a 2019. Fonte: Autor.
 
 Para identificar a distribuição, porcentagem dos casos e qual a mesorregião apresentou maior risco foi feita a seguinte consulta utilizando as colunas meso_name e dengue_cases. Foram apresentadas somente as 5 regiões mais afetadas.
 
-![Análise do total de casos por mesorregião. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/235f1965-43df-4b9b-8af3-cd51fb706a93/Untitled.png)
+![Análise do total de casos por mesorregião. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/2%20-%20Mesorregi%C3%A3o.png)
 
 Análise do total de casos por mesorregião. Fonte: Autor
 
@@ -138,7 +138,7 @@ Análise do total de casos por mesorregião. Fonte: Autor
 
 Para identificar qual região apresentou maior risco foi a query anterior foi alterada utilizando as colunas region_name e dengue_cases.
 
-![Análise do total de casos por região. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/8b190deb-31ec-423f-8966-06967b04a644/Untitled.png)
+![Análise do total de casos por região. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/3%20-%20Regi%C3%A3o.png)
 
 Análise do total de casos por região. Fonte: Autor
 
@@ -152,7 +152,7 @@ Análise do total de casos por região. Fonte: Autor
 
 Para identificar os estados mais afetados, a query anterior foi alterada utilizando a coluna state_name. Foram apresentados somente os 10 estados mais afetados .
 
-![Análise do total de casos por estado. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/5957e3f2-525d-4274-8872-8a491976026f/Untitled.png)
+![Análise do total de casos por estado. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/4%20-%20Estado.png)
 
 Análise do total de casos por estado. Fonte: Autor
 
@@ -166,7 +166,7 @@ Análise do total de casos por estado. Fonte: Autor
 
 Para a análise por cidades, a query anterior foi alterada utilizando a coluna micro_name. Foram apresentadas somente as 5 cidades mais afetadas.
 
-![Análise do total de casos por cidade. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/4315a50b-12e9-4286-b648-06e972594f93/Untitled.png)
+![Análise do total de casos por cidade. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/5%20-%20Cidade.png)
 
 Análise do total de casos por cidade. Fonte: Autor
 
@@ -180,7 +180,7 @@ Se comparada com o número de casos do estado do RJ, a capital do Rio representa
 
 ---
 
-![Análise das cidades com maior número de casos em cada região. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/618e9fa1-84ee-4602-a0dd-df5dea1d1044/Untitled.png)
+![Análise das cidades com maior número de casos em cada região. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/6%20-%20Cidade%20por%20regi%C3%A3o.png)
 
 Análise das cidades com maior número de casos em cada região. Fonte: Autor
 
@@ -198,7 +198,7 @@ Como visto nos resultados anteriores, a região que apresentou maior número de 
 
 Foi realizada a análise para confirmar se a predominância de casos foi neste bioma. As colunas utilizadas foram biome_name e dengue_cases, com a seguinte query.
 
-![Análise do total de casos por bioma. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/5d61764f-0f9b-4235-b3e8-31c007806909/Untitled.png)
+![Análise do total de casos por bioma. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/7%20-%20Bioma.png)
 
 Análise do total de casos por bioma. Fonte: Autor
 
@@ -216,7 +216,7 @@ Análise do total de casos por bioma. Fonte: Autor
 
 Para verificar se áreas urbanas apresentam maior ou menor número de casos, a porcentagem de urbanização (coluna urban) foi dividida em 4 intervalos de porcentagem, 0-25, 26-50, 51-75, 76-100 e a média de casos para cada intervalo foi calculada.
 
-![Análise da média de casos por intervalos de porcentagem de urbanização. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/5e44dd0e-afba-457e-931b-515240bdb3ae/Untitled.png)
+![Análise da média de casos por intervalos de porcentagem de urbanização. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/8%20-%20Urbaniza%C3%A7%C3%A3o.png)
 
 Análise da média de casos por intervalos de porcentagem de urbanização. Fonte: Autor
 
@@ -232,7 +232,7 @@ Isso sugere que uma população maior, e consequentemente uma maior densidade po
 
 Para análise da densidade populacional (coluna pop_density), o n° de habitantes por km² foi dividido em 4 intervalos, 0-1625, 1626-3250, 3251-4875, 4876-6500.
 
-![Análise da média de casos por intervalos de densidade populacional. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/4cf408ad-2d8c-4ce8-9e9b-d19007553463/Untitled.png)
+![Análise da média de casos por intervalos de densidade populacional. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/9%20-%20Densidade%20Populacional.png)
 
 Análise da média de casos por intervalos de densidade populacional. Fonte: Autor
 
@@ -246,7 +246,7 @@ Análise da média de casos por intervalos de densidade populacional. Fonte: Aut
 
 Foi avaliada a população (coluna population), que também foi dividida em 4 intervalos, começando por 16.000, menor número registrado e finalizando em pouco mais de 15041894, maior número registrado. O número foi arredondado para os intervalos representarem valores iguais.
 
-![Análise da média de casos por intervalo do tamanho da população. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/c3fe74cc-943d-4632-844f-8aab8d613b51/Untitled.png)
+![Análise da média de casos por intervalo do tamanho da população. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/10%20-%20Popula%C3%A7%C3%A3o%20total.png)
 
 Análise da média de casos por intervalo do tamanho da população. Fonte: Autor
 
@@ -266,13 +266,13 @@ A disponibilidade de água encanada e a falta d’água também são fatores que
 
 Foi visto como resultado nas consultas acima que áreas mais urbanizadas apresentaram maior número de casos. Na consulta abaixo, foi verificado se áreas com maior acesso à água tiveram maior número de casos. A porcentagem de habitantes com acesso (coluna water_network) foi dividida em 4 intervalos.
 
-![Análise da média de casos por intervalo de porcentagem da população com acesso a água encanada. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/84e40225-0a64-4361-b4a2-f71a4518ea86/Untitled.png)
+![Análise da média de casos por intervalo de porcentagem da população com acesso a água encanada. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/11%20-%20Recursos%20H%C3%ADdricos.png)
 
 Análise da média de casos por intervalo de porcentagem da população com acesso a água encanada. Fonte: Autor
 
 **Os resultados mostram que áreas com maior acesso à água encanada também apresentam maior número de ocorrências de dengue.** Este resultado provavelmente se dá pelo fato de que áreas mais urbanizadas apresentam maior taxa de população com acesso a este recurso. A query abaixo demonstra isso.
 
-![Análise da média de população com acesso a água encanada por intervalo de porcentagem de urbanização. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/b14b2b44-e102-41e6-b918-85799437e8a6/Untitled.png)
+![Análise da média de população com acesso a água encanada por intervalo de porcentagem de urbanização. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/12%20-%20Recursos%20H%C3%ADdricos%20II.png)
 
 Análise da média de população com acesso a água encanada por intervalo de porcentagem de urbanização. Fonte: Autor
 
@@ -284,7 +284,7 @@ Análise da média de população com acesso a água encanada por intervalo de p
 
 A escassez de água também pode ser um fator que influencia o número de casos de dengue. A coluna water_shortage foi dividida em 4 categorias, de baixa até alta escassez d’água sendo avaliado o total de casos para cada uma com a seguinte query.
 
-![Análise da média de casos registrados em relação à categorias de falta d’água. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/840c7c84-a6fa-4367-984b-432fb29a8763/Untitled.png)
+![Análise da média de casos registrados em relação à categorias de falta d’água. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/13%20-%20Recursos%20H%C3%ADdricos%20III.png)
 
 Análise da média de casos registrados em relação à categorias de falta d’água. Fonte: Autor
 
@@ -306,7 +306,7 @@ Com dados anuais e mensais, as autoridades de saúde podem ajustar suas abordage
 
 Foi utilizada a seguinte consulta para verificar o total de casos anuais (coluna year)
 
-![Análise dos registros de caso anualmente e a sua porcentagem relativa ao total de registros. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/baf27590-106f-4666-9201-1e9243989799/Untitled.png)
+![Análise dos registros de caso anualmente e a sua porcentagem relativa ao total de registros. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/14%20-%20Casos%20Anuais.png)
 
 Análise dos registros de caso anualmente e a sua porcentagem relativa ao total de registros. Fonte: Autor
 
@@ -320,7 +320,7 @@ Análise dos registros de caso anualmente e a sua porcentagem relativa ao total 
 
 O total de número de casos por mês (coluna month) também foi analisado, utilizando a seguinte query.
 
-![Análise do total de casos por mês de registro e sua porcentagem relativa ao total de casos. Fonte: Autor](https://prod-files-secure.s3.us-west-2.amazonaws.com/bb3ec6f8-64ca-4699-abb0-b6632f502c1a/95240985-5124-4fee-b502-0407b47f93b5/Untitled.png)
+![Análise do total de casos por mês de registro e sua porcentagem relativa ao total de casos. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/15%20-%20M%C3%AAs%20de%20registro.png)
 
 Análise do total de casos por mês de registro e sua porcentagem relativa ao total de casos. Fonte: Autor
 
