@@ -9,7 +9,7 @@ O SQL, ou Linguagem de Consulta Estruturada, em português, é uma linguagem de 
 
 A dengue é uma doença viral transmitida pelo mosquito *Aedes aegypti.* Os sintomas incluem febre alta, dores musculares, dores de cabeça e erupções cutâneas. Em casos mais graves, pode evoluir gerando complicações severas e até a morte.
 
-A análise de dados da dengue é importante para monitorar e controlar a propagação da doença. Esses dados permitem que os profissionais de saúde identifiquem áreas de surto, tomem medidas preventivas e adotem estratégias eficientes de controle do vetor. Além disso, a análise dos dados epidemiológicos auxilia na identificação vulnerabilidades e na implementação de ações direcionadas para prevenir novos casos. A compreensão desses dados é fundamental para o planejamento de políticas de saúde e para a prevenção e combate efetivo da dengue.
+A análise de dados da dengue é importante para monitorar e controlar a propagação da doença. Esses dados permitem que os profissionais de saúde identifiquem áreas de surto, tomem medidas preventivas e adotem estratégias eficientes de controle do vetor. Além disso, a análise dos dados epidemiológicos auxilia na identificação vulnerabilidades e na implementação de ações direcionadas para evitar novos casos. A compreensão desses dados é fundamental para o planejamento de políticas de saúde e para a prevenção e combate efetivo da dengue.
 
 ---
 
