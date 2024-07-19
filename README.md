@@ -425,3 +425,8 @@ Fique a vontade para fazer críticas, perguntas e sugestões. 
 **Portfólio: [Clique aqui](https://www.notion.so/Portf-lio-Ian-Rodrigo-Stoltz-9678c741c8914c3e8ad331278eb2cd80?pvs=21)!**
 
 ---
+
+## Tecnologias utilizadas
+<p align="left"> 
+   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/> &nbsp;
