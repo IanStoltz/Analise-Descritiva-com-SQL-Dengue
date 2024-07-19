@@ -128,7 +128,7 @@ Para identificar a distribuição, porcentagem dos casos e qual a mesorregião a
 
 Análise do total de casos por mesorregião. Fonte: Autor
 
-**A mesorregião que apresentou maior número de casos foi a Metropolitana De Belo Horizonte com um total de 1.088.760 casos, representando 8.37% do total geral.**
+**A mesorregião que apresentou maior número de casos foi a Metropolitana De Belo Horizonte com um total de 1.088.760 casos, representando 8,37% do total geral.**
 
 ---
 
@@ -156,7 +156,7 @@ Para identificar os estados mais afetados, a query anterior foi alterada utiliza
 
 Análise do total de casos por estado. Fonte: Autor
 
-**O estado com maior número de casos registrados foi São Paulo, representando um total de 2.549.024 ocorrências, 37,86% dos casos da região Sudeste e 19.59% dos casos totais.**
+**O estado com maior número de casos registrados foi São Paulo, representando um total de 2.549.024 ocorrências, 37,86% dos casos da região Sudeste e 19,59% dos casos totais.**
 
 ---
 
@@ -170,9 +170,9 @@ Para a análise por cidades, a query anterior foi alterada utilizando a coluna m
 
 Análise do total de casos por cidade. Fonte: Autor
 
-**A cidade com maior ocorrência foi a do Rio de Janeiro, com um total de 1.020.174 ocorrências, 15,15% dos casos da região Sudeste, 7.84% dos casos totais, seguida de Belo Horizonte, Goiânia, Fortaleza e Campinas.** 
+**A cidade com maior ocorrência foi a do Rio de Janeiro, com um total de 1.020.174 ocorrências, 15,15% dos casos da região Sudeste, 7,84% dos casos totais, seguida de Belo Horizonte, Goiânia, Fortaleza e Campinas.** 
 
-Se comparada com o número de casos do estado do RJ, a capital do Rio representa 72.03% do número das ocorrências (1.020.174 ocorrências). Se comparada com o número de casos do estado de SP, a capital São Paulo representa apenas 7.36% das ocorrências (187.659 ocorrências). As queries destas duas consultas foram omitidas por não serem um objetivo direto da análise, porém, as consultas estão disponíveis no meu [GitHub](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/An%C3%A1lises/An%C3%A1lises.sql).
+Se comparada com o número de casos do estado do RJ, a capital do Rio representa 72,03% do número das ocorrências (1.020.174 ocorrências). Se comparada com o número de casos do estado de SP, a capital São Paulo representa apenas 7,36% das ocorrências (187.659 ocorrências). As queries destas duas consultas foram omitidas por não serem um objetivo direto da análise, porém, as consultas estão disponíveis no meu [GitHub](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/An%C3%A1lises/An%C3%A1lises.sql).
 
 ---
 
@@ -202,7 +202,7 @@ Foi realizada a análise para confirmar se a predominância de casos foi neste b
 
 Análise do total de casos por bioma. Fonte: Autor
 
-**A análise confirma o bioma que mais registrou casos foi a Mata Atlântica, com 6.954.422 casos, apresentando 53.44% do total de casos geral.**
+**A análise confirma o bioma que mais registrou casos foi a Mata Atlântica, com 6.954.422 casos, apresentando 53,44% do total de casos geral.**
 
 ---
 
@@ -244,7 +244,7 @@ Análise da média de casos por intervalos de densidade populacional. Fonte: Aut
 
 ---
 
-Foi avaliada a população (coluna population), que também foi dividida em 4 intervalos, começando por 16.000, menor número registrado e finalizando em pouco mais de 15041894, maior número registrado. O número foi arredondado para os intervalos representarem valores iguais.
+Foi avaliada a população (coluna population), que também foi dividida em 4 intervalos, começando por 16.000, menor número registrado e finalizando em pouco mais de 15.041.894, maior número registrado. O número foi arredondado para os intervalos representarem valores iguais.
 
 ![Análise da média de casos por intervalo do tamanho da população. Fonte: Autor](https://github.com/IanStoltz/Analise-Descritiva-com-sql-Dengue/blob/main/Imagens/10%20-%20Popula%C3%A7%C3%A3o%20total.png)
 
@@ -310,7 +310,7 @@ Foi utilizada a seguinte consulta para verificar o total de casos anuais (coluna
 
 Análise dos registros de caso anualmente e a sua porcentagem relativa ao total de registros. Fonte: Autor
 
-**Os resultados mostram que o ano de 2015 foi o ano que apresentou o maior número de casos, com um total de 1.700.074 ocorrências, representando 13.06% do total de casos em todo o período analisado.**
+**Os resultados mostram que o ano de 2015 foi o ano que apresentou o maior número de casos, com um total de 1.700.074 ocorrências, representando 13,06% do total de casos em todo o período analisado.**
 
 ---
 
@@ -324,7 +324,7 @@ O total de número de casos por mês (coluna month) também foi analisado, utili
 
 Análise do total de casos por mês de registro e sua porcentagem relativa ao total de casos. Fonte: Autor
 
-**O mês que apresentou maior número de casos registrados foi março, com 2.844.516 casos, representando 21.86% do total geral de notificações, seguido de abril, com 2.801.941 casos, representando 21.53% do total.**
+**O mês que apresentou maior número de casos registrados foi março, com 2.844.516 casos, representando 21,86% do total geral de notificações, seguido de abril, com 2.801.941 casos, representando 21,53% do total.**
 
 Os resultados podem estar relacionados com o período de chuvas. Março e abril são meses que frequentemente marcam o início ou o auge da estação chuvosa em muitas regiões. O aumento das chuvas cria ambientes propícios para a formação de criadouros do mosquito.
 
